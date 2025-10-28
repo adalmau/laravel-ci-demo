@@ -31,7 +31,7 @@ jobs:
       # Pas 2: instal·lar PHP i extensions necessàries per a Laravel.
       - name: Set up PHP
         # Action específica per gestionar versions/ext dels PHP Runtimes.
-        uses: shivammathur/setup-php@v3
+        uses: shivammathur/setup-php@v2
         # 'with' passa paràmetres a l'action.
         with:
           # Versió de PHP que volem al runner.
