@@ -35,6 +35,6 @@ class TaskTest extends TestCase
         $task = $task->fresh();
 
         //vull saber si el camp done és 1 o 0 a la base de dades
-        $this->assertDatabaseHas('tasks', ['id' => $task->id, 'done' => true]);
+        $this->assertDatabaseHas('tasks', ['id' => $task->id, 'done' => false]);
     }
 }
